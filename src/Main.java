@@ -22,6 +22,7 @@ public class Main {
             st = cn.createStatement();
             // Etape 4 : exécution requête
             String sql = "";
+            String sql2 = "popopo";
             rs = st.executeQuery(sql);
 
             // Etape 5 : (parcours Resultset)
