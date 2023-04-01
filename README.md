@@ -1,5 +1,5 @@
 # ChatCheurProject
-##Utilisation GitHub
+## Utilisation GitHub
 1) git pull
 2) créer une branche : git checkout -b nom_branche
 3) CODER
