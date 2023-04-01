@@ -1,5 +1,3 @@
-import Enums.TypeLog;
-
 import java.time.LocalDate;
 
 public class Log {
