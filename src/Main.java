@@ -23,6 +23,7 @@ public class Main {
             // Etape 4 : exécution requête
             String sql = "";
             String sql2 = "cheto";
+            String chibre = "chibre";
             rs = st.executeQuery(sql);
 
             // Etape 5 : (parcours Resultset)
