@@ -22,7 +22,7 @@ public class Main {
             st = cn.createStatement();
             // Etape 4 : exécution requête
             String sql = "";
-            String sql2 = "";
+            String sql2 = "SELECT * FROM ";
 
             rs = st.executeQuery(sql2);
 
