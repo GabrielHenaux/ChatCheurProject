@@ -22,7 +22,8 @@ public class Main {
             st = cn.createStatement();
             // Etape 4 : exécution requête
             String sql = "";
-            rs = st.executeQuery(sql);
+            String sql2 = "SELECT * FROM ";
+            rs = st.executeQuery(sql2);
 
             // Etape 5 : (parcours Resultset)
 
@@ -35,8 +36,6 @@ public class Main {
 
             e.printStackTrace();
         }
-
-
 
     }
 }
