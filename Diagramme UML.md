@@ -6,7 +6,7 @@
         +sendLog() void
     }
     class User {
-        +sendMessage(String content) void
+        +sendMessage(Message content) void
         +setState(String newState)
         +sendLog() void
     }
@@ -18,7 +18,24 @@
         +generalStatistics() void
         +sendLog() void
     }
+    User --|> Client
     Admin --|> Moderateur
     Moderateur --|> User
-    User --|> Client
+    
+    class Controler {
+        -List<Client> clients
+        -update() void;
+    }
+    
+    class Message {
+        -String content
+        -LocalDateTime time
+        -User sender
+    }
+    class Log {
+        -int Id
+        -int UserId
+        -LocalDateTime time
+        -TYPELOG typelog 
+    }
 ```
