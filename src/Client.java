@@ -1,10 +1,11 @@
 public class Client {
 
-    public static void conexion(String username, String password){
+    //TODO la méthode connection lorsqu'on a rentré id sur client (Stan)
+    public static void connection(String username, String password){
         // Ne pas oublier le block.timestamp à l'envoi
     }
 
-    public static void disconexion(){
+    public static void disconnection(){
 
     }
 
