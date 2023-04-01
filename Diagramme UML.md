@@ -10,7 +10,7 @@
         +setState(String newState)
         +sendLog() void
     }
-    class Moderateur {
+    class Moderator {
         +ban(String user)
         +sendLog() void
     }
@@ -37,5 +37,12 @@
         -int UserId
         -LocalDateTime time
         -TYPELOG typelog 
+    }
+    
+    class Application {
+        -JButton connexion, sendMessage, state, settings, ban, 
+        +displayMessages() void
+        +displayUsers() void
+        
     }
 ```
